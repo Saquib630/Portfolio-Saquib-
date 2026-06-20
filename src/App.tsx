@@ -5,11 +5,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 
-import decayStreetImage from './assets/decay_street.png';
-import mazeImage from './assets/maze.png';
-import saquibOriginalImage from './assets/saquib_original.jpeg';
-import sumnwinImage from './assets/sumnwin.png';
-import universeImage from './assets/universe.png';
 import {
   Menu,
   X,
@@ -380,8 +375,8 @@ export default function App() {
                   
                   {/* Real Image Loader */}
                   {!imageErrors['profile'] ? (
-                    <img
-                      src={saquibOriginalImage}
+                     <img
+                      src="/saquib_original.jpeg"
                       alt="Mohd Saquib - Profile"
                       className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
                       onError={() => handleImageError('profile')}
@@ -1170,13 +1165,13 @@ export default function App() {
                         <img
                           src={
                             game.id === 'mazemenia'
-                              ? mazeImage
+                              ? '/maze.png'
                               : game.id === 'sumandwin'
-                              ? sumnwinImage
+                              ? '/sumnwin.png'
                               : game.id === 'universesaver'
-                              ? universeImage
+                              ? '/universe.png'
                               : game.id === 'decaystreet'
-                              ? decayStreetImage
+                              ? '/decay_street.png'
                               : ''
                           }
                           alt={`${game.title} Logo`}
