@@ -304,7 +304,7 @@ export default function App() {
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse-soft" />
                   Open to Work
                 </span>
-                <span className="text-xs text-slate-400">Prayagraj, India</span>
+                <span className="text-xs text-slate-400 font-medium">Jaunpur , India</span>
               </div>
             </div>
           </div>
@@ -418,7 +418,7 @@ export default function App() {
                 <div className="mt-4 flex items-center justify-between px-2 pb-1">
                   <div>
                     <h3 className="text-sm font-bold text-slate-900">Mohd Saquib</h3>
-                    <p className="text-xs text-slate-400">Prayagraj, India</p>
+                    <p className="text-xs text-slate-400 font-medium">Jaunpur , India</p>
                   </div>
                   <div className="flex gap-1">
                     <span className="w-2 h-2 rounded-full bg-orange-500" />
@@ -470,7 +470,7 @@ export default function App() {
               <div className="pt-6 grid grid-cols-2 sm:grid-cols-3 gap-4 border-t border-slate-100 text-sm">
                 <div>
                   <span className="text-slate-400 block font-mono text-xs uppercase">Location</span>
-                  <span className="font-bold text-slate-800">Prayagraj, India</span>
+                  <span className="font-bold text-slate-800">Jaunpur , India</span>
                 </div>
                 <div>
                   <span className="text-slate-400 block font-mono text-xs uppercase">Preferred Tech</span>
